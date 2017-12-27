@@ -1,0 +1,31 @@
+{
+  "name": "header-helper",
+  "version": "1.0.0",
+  "description": "根据文件的文件头判断文件类型",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "mime": "^2.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ruanjiayou/header-helper.git"
+  },
+  "keywords": [
+    "nodejs",
+    "file",
+    "header.extension"
+  ],
+  "author": "ruanjiayou",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ruanjiayou/header-helper/issues"
+  },
+  "homepage": "https://github.com/ruanjiayou/header-helper#readme"
+}
