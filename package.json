@@ -7,7 +7,12 @@
     "test": "test"
   },
   "dependencies": {
-    "mime": "^2.1.0"
+    "html-parser2": "^1.0.1",
+    "mime": "^2.1.0",
+    "net-helper": "^1.0.0",
+    "request-promise": "^4.2.2",
+    "uri-parser-helper": "0.0.1",
+    "utils2": "^1.0.1"
   },
   "devDependencies": {},
   "scripts": {
