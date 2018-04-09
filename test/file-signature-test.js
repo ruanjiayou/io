@@ -1,5 +1,5 @@
 const path = require('path');
-const FileSignature = require('../file-signature');
+const FileSignature = require('../index');
 const dir = path.join(__dirname, 'file-signature');
 
 // console.log(`${dir}/dll.dll`, 'path');  // D:\MyGitHub\validator\test/dll.dll
