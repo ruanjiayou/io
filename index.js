@@ -46,7 +46,7 @@ const getSignature = (fileHeader) => {
   }
   for (let i = SignatureDatas.length - 1; i >= 0; i--) {
     let signature = SignatureDatas[i];
-    if (FileSignature._bufferIsEqual(fileHeader.slice(0, signature.byteSeq.length), signature.byteSeq)) {
+    if (_bufferIsEqual(fileHeader.slice(0, signature.byteSeq.length), signature.byteSeq)) {
       res.extension = signature.extension;
       res.description = signature.description;
       if (signature.mimeType.mime) {
@@ -222,7 +222,7 @@ const mkdirs = (dir) => {
   }
   return true;
 }
-const eachAsync = (dir, cb, filter) => {
+const eachAsync = async (dir, cb, filter) => {
   if (isFolderExists(dir)) {
     let files = fs.readdirSync(dir);
     for (let i = 0; i < files.length; i++) {
