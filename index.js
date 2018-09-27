@@ -42,7 +42,7 @@ const getSignature = (fileHeader) => {
     mimeType: 'application/octet-stream'
   };
   if (typeof fileHeader === 'string') {
-    fileHeader = this._getFileHeader(fileHeader);
+    fileHeader = _getFileHeader(fileHeader);
   }
   for (let i = SignatureDatas.length - 1; i >= 0; i--) {
     let signature = SignatureDatas[i];
