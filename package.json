@@ -1,5 +1,5 @@
 {
-  "name": "io-helper",
+  "name": "header-helper",
   "version": "1.0.1",
   "description": "根据文件的文件头判断文件类型",
   "main": "index.js",
