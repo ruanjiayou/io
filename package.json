@@ -1,6 +1,6 @@
 {
   "name": "io-helper",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "根据文件的文件头判断文件类型",
   "main": "index.js",
   "directories": {
