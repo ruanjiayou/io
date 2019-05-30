@@ -9,13 +9,18 @@
   "dependencies": {
     "mime": "^2.1.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "codecov": "^3.5.0",
+    "istanbul": "^0.4.5",
+    "mocha": "^6.1.4"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha test/**/*.test.js",
+    "cov": "istanbul cover ./node_modules/mocha/bin/_mocha -- -R spec"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ruanjiayou/io.git"
+    "url": "git+https://github.com/ruanjiayou/header-helper.git"
   },
   "keywords": [
     "nodejs",
@@ -25,7 +30,7 @@
   "author": "ruanjiayou",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ruanjiayou/io/issues"
+    "url": "https://github.com/ruanjiayou/header-helper/issues"
   },
-  "homepage": "https://github.com/ruanjiayou/io#readme"
+  "homepage": "https://github.com/ruanjiayou/header-helper#readme"
 }
